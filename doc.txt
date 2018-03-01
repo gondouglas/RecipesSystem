@@ -1,0 +1,16 @@
+Criar sistema web de repositório de receitas
+
+    -Login
+    -Avaliação das receitas postadas
+    -Filtro de categoria das comidas
+    -Upload de video e imagens
+    -Niveis de acesso
+    -Comentarios
+    -Pagina inicial com as postagens mais recentes
+    -Feed com as mais populares
+    
+
+
+    tela
+
+    menu simples de login em cima da tela, carousel, 
