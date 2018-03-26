@@ -9,6 +9,9 @@ class User{
     private $accessLevel;
     private $deleted;
 
+    private $recipes;
+    private $comments;
+
     public function __construct()
     {
         

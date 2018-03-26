@@ -2,7 +2,6 @@
 
     class Comment{
         private $user;
-        private $recipe;
         private $comment;
         private $rate;
 

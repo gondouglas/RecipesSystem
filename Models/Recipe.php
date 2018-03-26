@@ -9,6 +9,9 @@ class Recipe{
     private $category;
     private $rate;
 
+    private $user;
+    private $comments;
+
     public function __construct(){
 
     }
