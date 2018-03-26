@@ -2,12 +2,12 @@
 
 class User{
 
-    private $firstname = string;
-    private $lastname = string;
-    private $login = string;
-    private $password = string;
-    private $accessLevel = int;
-    private $deleted = bool;
+    private $firstname;
+    private $lastname;
+    private $login;
+    private $password;
+    private $accessLevel;
+    private $deleted;
 
     public function __construct()
     {
@@ -46,8 +46,20 @@ class User{
         $this->lastname = $lastname;
     }
 
-    public function setLogin(){
+    public function setLogin($login){
         $this->login = $login;
+    }
+
+    public function setPassword($password){
+        $this->password = $password;
+    }
+
+    public function setAccessLevel($accessLevel){
+        $this->accessLevel = $accessLevel;
+    }
+
+    public function setDeleted($deleted){
+        $this->deleted = $deleted;
     }
 }
 ?>
